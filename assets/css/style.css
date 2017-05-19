@@ -7,35 +7,96 @@ font-family: 'Raleway', sans-serif;
 
 /* Escribe tu código acá debajo */
 
-
-body{
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Raleway";
+	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
 	background-color: #F78E69;
+	color: white;
 }
 
-h1{
+.presentacion{
+
+	padding: 50px 30px;
 	text-align: right;
 }
 
-.imagen{
-	
-	border: 50px;
-	height: 833px;
-	background:  url(../img/uno.jpg);
+.presentacion h1{
+	font-size: 50px;
+	padding-bottom: 30px;
 }
 
+
+#imagen-panda1{
+
+	background-image:  url(../img/uno.jpg);
+}
+#imagen-panda2{
+	background-image:  url(../img/dos.jpg);
+}
+#imagen-panda3{
+	background-image: url(../img/tres.jpg);
+}
+.textito{
+
+	padding: 40px 380px;
+	background-color: #ABE188;
+}
+.textito h1{
+	font-size: 6em;
+}
 .texto{
 	
-	padding: 50px;
+	padding: 30px;
 	font-size: 0.5em;
 	text-align: center;
-	background-color: #ABE188;
+	background-color: #F78E69;
 }
 
 p{
+	color: white;
 	background-color: #F78E69;
 }
 
 #arreglo p{
 	background-color: #ABE188;	
+}
+
+.imagen{
+	margin: 20px 0;
+	padding: 300px;
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(100%); 
+}
+
+.pandas img{
+	align-content: center;
+	display: inline-block;
+	float: left;
+	border: 5px solid whitesmoke;
+	margin: 30px;
+
+}
+
+.contenedor-imagen{
+ 
+	background-color: #ABE188;	
+	padding: 200px;
+
+}
+.contenedor-imagen p{
+	align-content: center;
+	margin-top: -130px;
+	text-align: center;
+	font-size: 3em;
+	background-color: #ABE188;	
+	margin-bottom: 20px;
+}
+footer{
+	margin: 10px;
+	text-align: right;
 }
