@@ -6,3 +6,36 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #F78E69;
+}
+
+h1{
+	text-align: right;
+}
+
+.imagen{
+	
+	border: 50px;
+	height: 833px;
+	background:  url(../img/uno.jpg);
+}
+
+.texto{
+	
+	padding: 50px;
+	font-size: 0.5em;
+	text-align: center;
+	background-color: #ABE188;
+}
+
+p{
+	background-color: #F78E69;
+}
+
+#arreglo p{
+	background-color: #ABE188;	
+}
